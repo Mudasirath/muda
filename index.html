@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuuil</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        li {
+            list-style: none;
+            color: white;
+            margin-left: 25px;
+        }
+
+        .navbar-brand {
+            margin-right: 600px;
+        }
+
+        .nav-link {
+            font-weight: 900;
+        }
+
+        .header {
+            background-color: pink;
+        }
+
+        .btn-primary {
+            border-radius: 10px;
+        }
+
+        img {
+            height: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+
+        .h5 {
+            font-size: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        P {
+            text-align: center;
+        }
+
+        .newsletter-form {
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        .newsletter-form .form-control {
+            border: none;
+            padding: 12px 20Ppx;
+        }
+
+        .newsletter-form .btn-pink {
+            background-color: #e83e8c;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+        }
+
+        .newsletter {
+            background-color: #fce4ec;
+            padding: 20px 0;
+        }
+
+        .newsletter h5 {
+            margin: 0;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .newsletter p {
+            margin: 5px 0 0;
+            color: #777;
+        }
+
+        .btn-pink {
+            background-color: #e83e8c;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+        }
+
+        .btn-pink:hover {
+            background-color: #d63384;
+            color: white;
+        }
+
+        .collection {
+            min-height: 300px;
+            background-image: url("image/IMG-20261008-WA3931.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .contenu-collection {
+            padding: 40px;
+        }
+
+        .petit-titre {
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .contenu-collection p {
+            color: #555;
+        }
+
+        .contenu-collection h2 {
+            font-family: Georgia, serif;
+            font-size: 35px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .btn-collection {
+            background-color: #c779a5;
+            color: white;
+            border-radius: 25px;
+            padding: 12px 22px;
+            border: none;
+        }
+
+        .btn-collection:hover {
+            background-color: #a95d88;
+            color: white;
+        }
+
+        .témoignage {
+            background-color: #f8f5fa;
+            padding: 50px 0;
+        }
+
+        .témoignage h2 {
+            text-align: center;
+            color: #26305c;
+            font-family: Georgia, serif;
+            margin-bottom: 40px;
+        }
+
+        .avis {
+            background-color: white;
+            border: 1px solid #e8e2ec;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            gap: 15px;
+            min-height: 180px;
+        }
+
+        .avis img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+
+        .commentaire {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .avis h5 {
+            color: #26305c;
+            margin-bottom: 5px;
+        }
+
+        .avis small {
+            color: #7d91c5;
+        }
+        .footer{
+            background-color: pink;
+            padding: 40px 0 25px;
+            color: #26305c;
+        }
+        .footer h2{
+            font-family: Georgia, serif;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        .footer .slogan{
+            font-size: 13px;
+            letter-spacing: 2px;
+            margin-top: 0;
+        }
+        .footerh h5{
+            font-size: 13px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .footer a{
+            display: flex;
+            text-decoration: none;
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        .footer a:hover{
+            color: #c47c9d;
+        }
+        .copyright{
+            margin-top: 55px;
+            font-size: 11px;
+            color: #777;
+        }
+        .designtrait{
+            display: flex;
+            justify-content: center;
+        }
+        hr{
+            width: 100px;
+            height: 3px;
+            background-color: black;
+            margin: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mon site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="propos.html">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <div class="btn btn-primary"> Connexion </div>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div id="monCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!--les induicateurs-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="1"></button>
+        </div>
+        <!--images-->
+        <div class="carousel-inner">
+            <div class="carousel-item active image1">
+                <img src="image/ELEVATE.jfif" class=" d-block w-100" alt="Image1">
+            </div>
+            <div class="carousel-item image2">
+                <img src="image/ariate.jfif" class="d-block w-100" alt="Image2">
+            </div>
+        </div>
+        <!--bouton prrécédent-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#monCarousel" data-bs-slide-to="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <!--bouton suivant-->
+        <button class="carousel-control-next" type="button" data-bs-target="#monCarousel" data-bs-slide-to="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <h2>Acheter par Catégorie</h2>
+    <div class="container mt-5">
+        <div class=" row">
+            <div class="col-md-2">
+                <img src="image/844493673656453.jfif" alt="" class="image1 img-fluid">
+                <h5>Chouchou</h5>
+            </div>
+            <div class="col-md-2">
+                <img src="image/🌷______.jfif" alt="" class="image2 img-fluid">
+                <h5>Barrettes</h5>
+            </div>
+            <div class="col-md-2">
+                <img src="image/827255025349065006.jfif" alt="" class="image3 img-fluid">
+                <h5>Bandeau</h5>
+            </div>
+            <div class="col-md-2">
+                <img src="image/Cute stuff 🌸 🌸.jfif" alt="" class="image4 img-fluid">
+                <h5>Bracelets</h5>
+            </div>
+            <div class="col-md-2">
+                <img src="image/636696466114876922.jfif" alt="" class="image5 img-fluid">
+                <div class="nom">Sac à main</div>
+            </div>
+            <div class="col-md-2">
+                <img src="image/87890630222139804.jfif" alt="" class="image6 img-fluid">
+                <h5>Sac à dos</h5>
+            </div>
+        </div>
+    </div>
+    <h2>Meilleurs Ventes</h2>
+    <p>Les produits les plus aimés par nos clientes</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-3">
+                <img src="image/combos.jfif" alt="" class="image1 img-fluid">
+                <h5>Kit girl</h5>
+                <p>34,00£</p>
+            </div>
+            <div class="col-3">
+                <img src="image/590956782397799782.jfif" class="img-fluid" alt="" class="image2 img-fluid">
+                <h5>Kit bandeau</h5>
+                <p>38,00£</p>
+            </div>
+            <div class="col-3">
+                <img src="image/🩷🩷🩷✨✨✨.jfif" alt="" class="image3 img-fluid">
+                <h5>Kit pince</h5>
+                <p>24,00£ </p>
+            </div>
+            <div class="col-3">
+                <img src="C:\Users\CIP\Desktop\Muda\ola\image\161848180356536969.jfif" class="img-fluid" alt="">
+                <h5>Kit pince bandeau</h5>
+                <p>20,00£</p>
+            </div>
+        </div>
+    </div>
+    <section class="collection">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 contenu-collection">
+                    <p class="petit titre">
+                        NATURELLEMENT BEAUTE
+                    </p>
+                    <h2>
+                        Des soins qui révèlent <br> la meilleur version de vous.
+                    </h2>
+                    <p>
+                        Formules naturelles, efficaces et respectueuses de votre peau
+                    </p>
+                    <a href="#" class="btn btn btn-collection">DECOUVRIR LA COLLECTION</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Texte -->
+                <div class="col-md-7">
+                    <h5>Rejoignez Notre Communauté</h5>
+                    <p>
+                        Inscrivez-vous pour découvrir nos nouvautés,
+                        offres exclusives et conseilss beautés.
+                    </p>
+                </div>
+                <!-- Formulaires -->
+                <div class="col-md-5">
+                    <div class="input-group newsletter-form">
+                        <input type="email" class="form-control" placeholder="Votre adresse email">
+                        <button class="btn btn-pink">S'INSCRIRE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="témoignage">
+        <div class="designtrait">
+            <hr>
+            <h2>Ce que disent nos clientes</h2> 
+            <hr>
+        </div> 
+        <div class="container">
+            <div class="row">
+                <!-- Témoignage1 -->
+                <div class="col-md-4">
+                    <div class="avis">
+                        <img src="image/$$ pretty_bandzz🖤.jfif" alt="Cliente">
+                        <div>
+                            <p class="commentaires">
+                                "Jéadore la texture de ces produits!
+                                Ma peau est pkus lumineuse et hydratée
+                                depuis que je les utlises."
+                            </p>
+                            <h5>Sarah L.</h5>
+                            <small>Clientevérifiée</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Témoignage2 -->
+                <div class="col-md-4">
+                    <div class="avis">
+                        <img src="image/866098572111752924.jfif" alt="Cliente">
+                        <div>
+                            <p>
+                                Livraison rapide et produits de qualité.
+                                Je recommande vivement cette marque!
+                            </p>
+                            <h5>Imane.B</h5>
+                            <small>Cliente vérifiée</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="avis">
+                        <img src="image/FOND ROSE.jfif" alt="Cliente">
+                        <div>
+                            <p>
+                                Des soins naturels qui font vraiment la différence.
+                                Ma peau n'a jamais été aussi belle!
+                            </p>
+                            <h5>Leila K</h5>
+                            <small>Cliente vérifiée</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-md-4">
+                    <h2>AURA BLANC</h2>
+                    <P class="slogan">COSMETIQUESNATURELS</P>
+                    <p class="copyright">a 2026 Aura blanc. Tous droits réservés.</p>
+                </div>
+                <!-- Information -->
+                <div class="col-md-2">
+                    <h5>INFORMATION</h5>
+                    <a href="#">A propos</a>
+                    <a href="#">Livraison & Retours </a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                </div>
+                <!-- Service client  -->
+                <div class="col-md-2">
+                    <h5>SERVICE CLIENT</h5>
+                    <a href="#">Livraison</a>
+                    <a href="#">Retours</a>
+                    <a href="#">Suivi de commande</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <!-- Mon compte -->
+                <div class="col-md-2">
+                    <h5>MON COMPTE</h5>
+                    <a href="#">Se connecter</a>
+                    <a href="#">S'inscrire</a>
+                    <a href="#">Mes commandes</a>
+                    <a href="#">Liste d'envies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="bootstrap/js/bootstrap.min.js"></script>

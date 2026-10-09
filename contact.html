@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("image/12666442696351839.jfif");
+        }
+        h1{
+            text-align: center;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+        #header{
+           background-repeat: no-repeat;
+           padding-bottom: 10px;
+        }
+        .btn-primary{
+            height: 40px;
+        }
+        .forget-password{
+            margin-top: 20px;
+            margin-left: 40px;
+            
+        }
+        .form-control{
+            border-radius: 9px;
+        }
+        #hero{
+            padding-top: 50px;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            color: white;
+            list-style: none;
+            margin-left: 25px;
+        }
+        #logo{
+            margin-right: 600px;
+        }
+        .header{
+            background-color: coral;
+        }
+        .btn-primary{
+            margin-left: 120px;
+            border-radius: 9px;
+        }
+        .btn-primary a{
+            color: white;
+            text-decoration: none;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <div class="row g-2" id="hero">
+        <div class="col-md-4"></div>
+            <div class="card col-md-4" id="header">
+                <h1>Contact</h1>
+            <form>
+                <!--nom-->
+                <div class="mb-3 text-start">
+                    <label for="Nom" class="form-label">Nom</label>
+                    <input type="nom" class="form-control" id="nom" placeholder="Votre nom" required>
+                    <label for="Prenom" class="form-label">Prenom</label>
+                    <input type="prenom" class="form-control" id="prenom" placeholder="Votre prenom" required>
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="email" class="form-label">Adresse email</label>
+                    <input type="email" class="form-control" id="email" placeholder="exemple@email" required>
+                    <label for="tel" class="form-label">Téléphone</label>
+                    <input type="tel" class="form-control" id="tel" placeholder="Numero" required>
+                </div>
+                <button type="submit" class=" btn btn-primary w-50">Envoyer</button>
+            </form>
+            <p class="forget-password">Mot de passe oublié <a href="#">Contactez l'administration</a></p>
+        </div>
+    </div>
+</body>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
